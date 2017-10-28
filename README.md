@@ -1,6 +1,7 @@
 ## Responsive website 
-CSS
+- HTML
+- CSS
 
-### Highlight
+### Highlight (working on)
 - Basic layout with media tag
 

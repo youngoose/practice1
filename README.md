@@ -2,6 +2,9 @@
 - HTML
 - CSS
 
-### Highlight (working on)
-- Basic layout with media tag
-
+### Highlight
+- Undersating of relative and absolute positioning
+- Understanding overflow styling 
+- Basic layout with media tag 
+- Responsive Grid framework
+- Suitable color matching for design of menu

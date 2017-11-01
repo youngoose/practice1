@@ -117,15 +117,12 @@ span {
   .col-lg-12 {
     width: 100%;
   }
-<<<<<<< HEAD
   h1 {
     font-size: 2.7vw; /* 1vw = 1% of viewport width */
   }
   li {
     font-size: 1.4vw;
   }
-=======
->>>>>>> db43d7abcf8fd338d296e4efdb4c827c624cc6fd
 }
 
 /********** Medium devices only **********/
@@ -179,7 +176,6 @@ span {
     width: 100%;
   }
 }
-<<<<<<< HEAD
 
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
@@ -223,5 +219,3 @@ span {
     width: 100%;
   }
 }
-=======
->>>>>>> db43d7abcf8fd338d296e4efdb4c827c624cc6fd

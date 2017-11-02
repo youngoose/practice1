@@ -117,15 +117,12 @@ span {
   .col-lg-12 {
     width: 100%;
   }
-<<<<<<< HEAD
   h1 {
     font-size: 2.7vw; /* 1vw = 1% of viewport width */
   }
   li {
-    font-size: 1.4vw;
+    font-size: 120%;
   }
-=======
->>>>>>> db43d7abcf8fd338d296e4efdb4c827c624cc6fd
 }
 
 /********** Medium devices only **********/
@@ -170,18 +167,14 @@ span {
     width: 100%;
   }
   h1 {
-    font-size: 3.5vw;
+    font-size: 3.5vw; 
   }
   li {
-    font-size: 2vw;
-  }
-  div div:nth-child(3) {
-    width: 100%;
+    font-size: 120%;
   }
 }
-<<<<<<< HEAD
 
-/********** Mobile devices only **********/
+/********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -222,6 +215,10 @@ span {
   .col-sm-12 {
     width: 100%;
   }
+  h1 {
+    font-size: 2em; 
+  }
+  li {
+    font-size: 115%; 
+  }
 }
-=======
->>>>>>> db43d7abcf8fd338d296e4efdb4c827c624cc6fd

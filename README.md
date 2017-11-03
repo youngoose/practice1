@@ -3,7 +3,7 @@
 - CSS3
 
 ### Highlight
-- CSS3 relative and absolute positioning
+- Relative and absolute positioning
 - Overflow styling 
 - Media tag for layout
 - Responsive grid framework

@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html>
  <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="css/style.css">
- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
- <title>Responsive Design</title>
+	 <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	 <title>Rocket Sushi Bar</title>
 </head>
-
 <body>
- <h1>Rocket Sushi</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Edward Jo's Sushi Bar</h1></a>
+							<p>
+								<img src="images/character-logo.png" alt="Chinese character logo">
+								<span>60 Years Tradition</span>
+							</p>
+					</div>	
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<!-- Toggle navigation never shows up as sr-only means screen-only not for browser -->
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+
+				</div><!-- navbar-header end -->
+
+			</div><!-- container end -->
+		</nav>
+	</header>
+
+
+
+
+
+
+
+
+ <h1>Menu</h1>
  <div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12">
+  <div class="col-md-4 col-sm-6 col-xs-12">
    <div class="menu">
     <ul>
     <!-- appetizers -->
@@ -35,11 +75,11 @@
 	1pc $1.5</br>
 	1pc $1.8</li>
     </ul>
-    <span id="title1">appetizers</span>
+    <span class="title" id="title1">appetizers</span>
    </div>
   </div>
 
-  <div class="col-lg-4 col-md-6 col-sm-12">
+  <div class="col-md-4 col-sm-6 col-xs-12">
   <div class="menu">
    <ul>
    <!-- Sashimi -->
@@ -60,11 +100,11 @@
 	1dish $2.3</br>
 	24pcs $23.45</li>
    </ul>
-   <span id="title2">Sashimi</span>
+   <span class="title" id="title2">Sashimi</span>
   </div>
  </div>
 
- <div class="col-lg-4 col-md-12 col-sm-12">
+ <div class="col-md-4 col-sm-12 col-xs-12">
  <div class="menu">
   <ul>
    <!-- Rolls -->
@@ -87,8 +127,13 @@
 	8pcs $9.0</br>
 	8pcs $8.5</li>
    </ul>
-   <span id="title3">Rolls</span>
+   <span class="title" id="title3">Rolls</span>
   </div>
  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

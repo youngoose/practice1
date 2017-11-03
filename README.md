@@ -1,8 +1,8 @@
-## Responsive website 
+## Responsive website
 - HTML5
 - CSS3
 
-### Highlight
+### Highlight(keep working on updating)
 - Relative and absolute positioning
 - Overflow styling 
 - Media tag for layout

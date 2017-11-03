@@ -1,11 +1,11 @@
 ## Responsive website 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ### Highlight
-- Undersating of relative and absolute positioning
-- Understanding overflow styling 
-- Basic layout with media tag 
+- CSS3 relative and absolute positioning
+- Overflow styling 
+- Media tag for layout
 - Responsive Grid framework
-- Suitable color matching for design of menu
-- Available with desktop, tablet, and mobile devices 
+- Designing 
+- For desktop, tablet, and mobile device

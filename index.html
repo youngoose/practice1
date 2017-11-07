@@ -6,7 +6,7 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
-	 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+	 <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	 <title>Rocket Sushi Bar</title>
 </head>
@@ -34,10 +34,31 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
-
-
 				</div><!-- navbar-header end -->
+
+				<!-- line 30 collapsable-nav connected to 40 with id-->
+				<div id="collapsable-nav" class="collapsable navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:123-456-7890">
+								<span>123-456-7890</span></a><div>* We Deliver</div>
+						</li> 
+					</ul><!-- #nav-list end -->
+				</div><!-- collapsable-nav end -->
+
+
 
 			</div><!-- container end -->
 		</nav>
@@ -132,7 +153,7 @@
  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>

@@ -1,4 +1,4 @@
-## Responsive website version 8
+## Responsive restaurant menu app
 - HTML5
 - CSS3
 

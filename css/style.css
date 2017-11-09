@@ -115,17 +115,20 @@ h1 {
   background-color: #F8E473;
   font-weight: bold;
   height: 180px;
-  margin-left: 20px; 
+  margin-left: 20px;
   margin-bottom: 20px;
-  padding: 40px 20px 30px 20px;
+  padding: 40px 20px 30px 0;
   overflow-x: hidden;
 }
 
 #alignleft {
+  padding: auto;
+  margin-left: -20px;
   float: left;
 }
 
 #alignright {
+  padding: auto;
   float: right;
 }
 
@@ -191,7 +194,7 @@ ul {
  
 }
 
-/********** xsmall devices only **********/
+/********** Extra small devices only **********/
 @media (max-width: 767px) {
  /* Header */
   .navbar-brand {
@@ -216,5 +219,23 @@ ul {
 
   #collapsable-nav a span { /*glyphicon menu*/
     font-size: 1em;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
   }
 }

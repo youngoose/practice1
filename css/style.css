@@ -94,12 +94,7 @@ body {
   clear: both;
   margin-top: -30px;
 }
-
 /* END HEADER */
-
-
-
-
 
 h1 {
   margin-top: 25px;
@@ -162,6 +157,13 @@ ul {
   background-color: #E3B778;
 }
 
+.menu > .top {
+  position: absolute;
+  right: 3px;
+  bottom: -35px;
+  text-decoration: none;
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -169,13 +171,10 @@ ul {
   top: 60px;
 }
 
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
 }
-
-
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -195,7 +194,7 @@ ul {
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 400px) and (max-width: 767px) {
  /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -237,5 +236,67 @@ ul {
     letter-spacing: .1em;
     text-transform: uppercase;
     font-weight: bold;
+  }
+}
+
+/********** Super Extra small devices only **********/
+@media (max-width: 399px) {
+   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    font-size: 6.5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* 60 years tradition */
+    margin-top: 15px;
+  }
+  .navbar-brand p img { /*character logo*/
+    height: 20px;
+    width: 20px;
+  }
+
+  #collapsable-nav a { /*glyphicon menu*/
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /*glyphicon menu*/
+    font-size: 1em;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .menu {
+    margin: 0 -18px 20px 15px;
+    padding: 40px 5px 0 0;
+  }
+
+  #alignleft {
+    font-size: 4.5vw;
+    margin-left: -28px;
+    float: left;
+  }
+
+  #alignright {
+    padding: auto;
+    float: right;
   }
 }

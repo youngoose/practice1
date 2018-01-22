@@ -2,7 +2,7 @@
 - HTML5
 - CSS3
 
-### Highlight (keep working on updating)
+### Highlight 
 version 1 - 7
 - Relative and absolute positioning
 - Overflow styling 
